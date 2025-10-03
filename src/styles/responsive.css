@@ -1,0 +1,4 @@
+@media (max-width:420px){
+    nav a{ padding:8px 10px; height:34px }
+    .header-inner{ padding:10px 0 }
+}
