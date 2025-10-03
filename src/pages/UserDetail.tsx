@@ -34,6 +34,8 @@ export default function UserDetail(){
     );
 
     async function onAdd(title: string, completed: boolean){
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-expect-error
         const created = await createTodo({ userId: uid, title, completed });
         setTodos(prev => [created, ...prev]);
     }

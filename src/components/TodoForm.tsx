@@ -2,7 +2,7 @@
 import { type FormEvent, useState } from "react";
 
 interface Props {
-    onAdd: (title: string, completed: boolean) => Promise<void> | void;
+    onAdd: (title: string, completed: boolean) => void;
 }
 
 export default function TodoForm({ onAdd }: Props){
